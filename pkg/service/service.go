@@ -2,13 +2,13 @@ package service
 
 import "github.com/sultanbekovr/todo-app/pkg/repository"
 
-type Authorization struct {
+type Authorization interface {
 }
 
-type TodoList struct {
+type TodoList interface {
 }
 
-type TodoItem struct {
+type TodoItem interface {
 }
 
 type Service struct {
